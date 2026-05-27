@@ -16,10 +16,10 @@ do{
     echo("2 - Parar" . PHP_EOL);
 
     $perg = readline();
-    $cartas = array_pop($baralho);
-
+    
     if($perg == 1){
 
+        $cartas = array_pop($baralho);
         if ($cartas == "J" || $cartas == "Q" || $cartas == "K") {
             $valor = 10;
 
